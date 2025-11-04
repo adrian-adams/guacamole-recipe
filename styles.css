@@ -16,15 +16,8 @@ body {
     background: var(--avo-green-light) !important;
 }
 
-main {
-    background-image: url('assets/images/avo-background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
 header {
-    background-image: url('assets/images/header-guac.jpg');
+    background-image: url("assets/images/avo-header.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -42,8 +35,6 @@ header section:nth-child(2) div {
     background-color: rgba(255, 255, 255, 0.7);
 }
 
-/* Custom Classes */
-
 header section:nth-child(2) span {
     display: flex;
     align-items: center;
@@ -51,6 +42,15 @@ header section:nth-child(2) span {
     padding-left: 1.5em;
     position: relative;
 }
+
+main {
+    background-image: url("assets/images/avo-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Custom Classes */
 
 #time::before, #serves::before, #ingredients::before {
     position: absolute;
