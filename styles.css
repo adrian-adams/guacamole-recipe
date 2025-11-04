@@ -17,14 +17,14 @@ body {
 }
 
 main {
-    background-image: url(/assets/images/avo-background.jpg);
+    background-image: url(assets/images/avo-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
 header {
-    background-image: url('/assets/images/header-guac.jpg');
+    background-image: url('assets/images/header-guac.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -59,15 +59,15 @@ header section:nth-child(2) span {
 }
 
 #time::before {
-    content: url("/assets/images/svg-spinners--clock.svg");
+    content: url("assets/images/svg-spinners--clock.svg");
 }
 
 #serves::before {
-    content: url("/assets/images/game-icons--hot-meal.svg");
+    content: url("assets/images/game-icons--hot-meal.svg");
 }
 
 #ingredients::before {
-    content: url("/assets/images/mdi--basket.svg");
+    content: url("assets/images/mdi--basket.svg");
 }
 
 .custom_ingredients, .custom_method {
